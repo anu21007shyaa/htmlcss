@@ -1,0 +1,73 @@
+/* =================================
+   RESET
+================================= */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial;
+    background-color:#0f172a;
+}
+
+section{
+    padding:40px 20px;
+}
+
+
+
+
+   HEADER + NAV
+================================= */
+header{
+position: fixed;
+    }
+
+nav a{
+    color:rgb(238, 234, 234);
+
+    a:hover{
+        color: bisque;
+
+    }
+
+    nav{
+        gap: 650px;
+    }
+}
+
+.logo span{
+    color: rgb(89, 0, 255);
+}
+.logo{
+    color: white
+}
+.title{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+.title span{
+    background: linear-gradient(to bottom left, #3333ff 0%, #ff99cc 100%);;
+}
+
+button{
+    padding:10px 20px;
+margin-left: 70%;
+border-radius: 10px;
+    }
+button:hover{
+color:#ac0a0a;
+
+}
+h4{
+    color: rgb(84, 83, 116);
+    text-align: center;
+}
+
+
+
+
+

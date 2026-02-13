@@ -1,90 +1,43 @@
- * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+.box1{
+    background:rgb(109, 30, 6);
+    border:5px solid rgb(231, 115, 86);
+    padding: 50px;
+    width: 1100px;
+    border:5px dotted rgb(235, 130, 130);
+display: flex;
 
-        body {
-            font-family: Arial, sans-serif;
-            background: #f5f5f5;
-            line-height: 1.6;
-        }
+}
+.box1:active{
+    background-color: rgb(68, 64, 12);
+}
+#hi{
+    margin-bottom: 100px;
+    margin-top: 0px;
+    padding: 30px;
+    background-color: rgb(56, 3, 3);
+    margin-right: 0px;
+    box-sizing: border-box;
 
-       
+}
+#hi:hover{
+    border-radius:20px;
+    background-color: rgb(90, 12, 3);
+}
+#d:active{
+color: aqua;
+}
 
-        /* ================= HEADER ================= */
-        header {
-        
-            color: white;
-            text-align: center;
-            padding: 20px;
-        }
-
-        nav {
-            margin-top: 10px;
-            color: tomato;
-            text-align: center;
-        }
-
-        nav a {
-            color: rgb(123, 97, 218);
-            text-decoration: none;
-            margin: 0 10px;
-            a:hover{
-                color: rgb(248, 97, 215);
-            }
-                }
-           
-        }
-
-        
-        .hero{
-            background: url(https://www.shutterstock.com/shutterstock/photos/2479236003/display_1500/stock-photo-the-sun-sets-behind-the-mountain-ranges-above-the-blooming-arnica-valley-location-place-carpathian-2479236003.jpg)
-       align-items: center;
-       justify-content: center;
-
-        }
-
-#po{
-    position:absolute;
-    height: 90px;
+#ho{
+     margin-bottom: 100px;
+    margin-top: 0px;
+    padding: 30px;
+    background-color: rgb(54, 5, 5);
+    margin-left: 50px;
+    box-sizing: border-box;
     width: 900px;
-    background-color: rgb(152, 139, 199);
-}
-       
-.be{
-    background-color: seashell;
-}
-       
-      
 
-        button {
-            padding: 8px 15px;
-            color: white
-            border: none;
-            cursor: pointer;
-            align-items: center;
-        }
-
-       
-        a:hover{
-            color: rgb(248, 97, 215);
-        }
-        h1{
-            background-color: black;
-            text-align: left;
-        }
-button:hover{
-
- color: red;   
 }
-.flex{
-    display: flex;
-    gap: 50px;
-
-    
-}
-.g{
-display:grid;
-grid-template-columns: ;
+#ho:hover{
+     border-radius:20px;
+    background-color: rgb(90, 12, 3);
 }
