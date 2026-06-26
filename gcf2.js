@@ -66,7 +66,7 @@ function watchTrailer6() {
   window.open( "https://youtu.be/sItUCKJQLTU");
 }
 function watchTrailer7() {
-  window.open( "https://youtu.be/TrueDetectiveTrailer");
+  window.open( "https://youtu.be/fVQUcaO4AvE");
 }
 document.querySelectorAll(".watchlist-btn").forEach(btn => {
   btn.addEventListener("click", () => {
